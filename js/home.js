@@ -1,5 +1,5 @@
 
-import myJSON from '../js/data/data.json' assert {type: 'json'};
+import myJSON from './data.json' assert {type: 'json'};
 var data  =myJSON.furniture;
 var list_name = [];
 //Get List_name_item

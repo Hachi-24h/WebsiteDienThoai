@@ -1,4 +1,4 @@
-import myJSON from '../js/data/data.json' assert {type: 'json'};
+import myJSON from './data.json' assert {type: 'json'};
 
     var data  =myJSON.furniture;
     const url = window.location.href.toString()
