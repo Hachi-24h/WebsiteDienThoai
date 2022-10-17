@@ -88,7 +88,7 @@ import myJSON from './data.json' assert {type: 'json'};
                             Providing customers with the most beautiful and new products is the joy of our Lalalisa shop. The above products are designed by famous designers. Lalalisa always keeps up with market trends, wish customers can choose beautiful products for themselves!</li>
                         </ul>
                         <div class="d-flex w-100 px-3">
-                        <button class="btnAddShop btn btn-warning w-50 py-2">Add to sale</button>
+                        <button class="btnAddShop btn btn-warning w-50 py-2"><a class="text-white" href="./paymentPage.html">Add to sale</a></button>
                         </div>
                     </div>
                     <div class="comment-cart row  w-100 container-fluid px-3 mt-2">
@@ -107,7 +107,7 @@ import myJSON from './data.json' assert {type: 'json'};
                  
                         <div class="row mt-3">
                             <textarea rows="4" cols="50" class="text-start yellow-text border-warning" form="usrform">Enter text here...</textarea>
-                            <button class="btn btn-warning w-100 mt-3">Comment</button>
+                            <button class="btn btn-warning w-100 mt-3 text-white">Comment</button>
                             
                         </div>
                     </div>

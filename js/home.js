@@ -40,7 +40,8 @@ btn_login.addEventListener('blur', ()=>{
 // Search Item
 var btn_Search = document.getElementById("search-event");
 var data_Search =  document.getElementById("get-value-search");
-
+console.log(btn_Search)
+console.log(data_Search)
 btn_Search.addEventListener('click',()=>{
     console.log(list_name)
     var value = data_Search.value;

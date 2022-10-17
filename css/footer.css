@@ -1,0 +1,36 @@
+
+
+
+/* footer */
+
+.footer-area {
+    background: rgba(255,140,0,0.82);
+    color: #fff;
+    padding-top: 80px;
+}
+
+footer {
+    margin-top: 60px;
+    padding: 20px;
+    border-top: 2px solid #fff;
+}
+
+.footer-area a {
+    display: block;
+    color: #fff;
+    margin-bottom: 0.5em;
+}
+
+.footer-area input {
+    border-color: #fff;
+    padding: 25px;
+    color: #fff;
+}
+
+.footer-area input:focus,
+.footer-area input::placeholder {
+    color: #fff;
+}
+
+
+/* end footer */

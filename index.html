@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./css/basic.css">
     <link rel="stylesheet" href="./css/color.css">
     <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="../css/footer.css">
     <!-- JQUERY -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -21,81 +22,14 @@
     <title>Lalalisa</title>
   </head>
   <body>
+    <div id="header"></div>
       <div class="container-fluid p-0 w-100">
-      <!-- Header start -->
-      
-        <div class="nav-header row p-2 justify-content-around align-items-center w-100 p-0">
 
-          <div class="col-2 logo-header">
-                <a href="">
-                <img src="./img/logo-website.jpg" alt="" width="100%" >
-                </a>
-          </div>
-
-          <ul  class="menu col-8 d-flex text-center mt-4 p-0 m-0">
-                
-            <li>
-              <a class="fs-4 text-dark mx-4 " href="./index.html">Home <span></span></a></li>
-              
-              <li class="position-relative menu-boss">
-              <a class="fs-4 text-dark mx-4  active position-relative" aria-current="page" href="./product.html">Product<span></span></a>
-               
-                 <ul class="px-0 py-4  menu-element1 position-absolute ">
-                 
-                  <li class="px-4 py-2 fs-5  text-start menu-element2 position-relative">
-                    <a class="text-dark" href="./classic.html">Classic</a>
-                      
-                  </li>
-
-                  <li class="px-4 py-2 fs-5  text-start menu-element2 position-relative">
-                    <a class="text-dark" href="./luxurious.html">Luxurious</a>
-                      
-                  </li>
-
-                  <li class="px-4 py-2 fs-5  text-start menu-element2 position-relative">
-                    <a class="text-dark" href="./royal.html">Royal</a>
-                  </li>
-
-
-                  </ul> 
-            
-                
-                </li>
-                <li class="position-relative menu-boss">
-                <a class="fs-4 text-dark mx-4 " href="#">News <span></span></a>
-                </li>
-                <li>
-                <a class="fs-4 text-dark mx-4 " href="#">About Us <span></span></a>
-                </li>
-          </ul>
-          
-            <div class="col-2 icon-header d-flex align-items-center justify-content-end mt-3 ">
-              <div class="row p-3 d-flex w-100">
-                  
-                <!-- Icon user  -->
-                  <div class="col-10 ">
-                    <button class="btn-login bg-white position-relative w-100 h-100">
-                      
-                      <a href="./signin.html"><i class="fas fa-user text-dark fs-1 my-1"></i></a>
-                    </button>
-                    
-                  </div>
-                <!-- Icon shopping -->
-                  <div class="col-2 p-0">
-                    <i class="fas fa-shopping-bag fs-1 my-1"></i>
-                  </div>
-
-              </div>
-            </div>
-          </div>
-
-      <!-- Header end -->
-      
       <!-- Slide one -->
       <section>
         <div class="container-fluid p-0  slide-one mb-2 " style="height: 100vh;">
 
-            <div class="row my-5">
+            <div class="row my-5 d-flex justify-content-between">
               <div class="col-6 ">
 
                 <div class="title-slide">
@@ -124,7 +58,7 @@
                           
                         
                         <div class="col-10 input-slide position-relative"> 
-                          <input id="get-value" class="fs-5 p-2 bg-light" type="text" placeholder="Search property">
+                          <input id="get-value-search" class="fs-5 p-2 bg-light" type="text" placeholder="Search property">
                         </div>
                          <div class="col-1">
                         <button id="search-event" class="btn-search position-absolute bg-dark text-white end-0 mt-1 mx-4 border-0 px-4 py-2">Search</button>
@@ -210,8 +144,45 @@
 
 
     </div>
-    <footer id="footer"> </footer>
+    <div class="footer-area">
+      <div class="container-fluid">
+          <div class="row justify-content-center">
+              <div class="col-md-3">
+                  <img src="../img/logo.png" alt="" width="180" >
+                  <p class="text-capitalize mt-3">Lalalisa tự hào mang đến các dòng sản phẩm vô cùng đa dạng và phong phú, kết hợp hài hòa giá trị mỹ thuật của phương Tây và các giá trị truyền thống của Phương Đông. Được thể hiện rõ nét trong các dòng nội thất Cổ điển, Tân cổ điển, Hiện đại và Đương đại.</p>
+              </div>
+              <div class="col-md-2">
+                  <h3>Thông tin</h3>
+                  <a href="">Về chúng tôi</a>
+                  <a href="./eror.html">Chính sách bán hàng</a>
+                  <a href="./eror.html">Theo dõi đơn hàng</a>
+              </div>
+              <div class="col-md-3">
+                  <h3>Liên hệ với chúng tôi</h3>
+                  <div class="contact">
+                      <a href="./index.html">www.Lalalisa.com</a>
+                      <a href="tel:0347825JQK">(+84) 347825825</a>
+                      <a href="mailto:zombizombi51@gmail.com">Lalalisa@gmail.com</a>
+                      <div class="icon-social h1">
+                          <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                          <i class="fa fa-instagram" aria-hidden="true"></i>
+                          <i class="fa fa-twitter" aria-hidden="true"></i>
+                          <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <h3>CÔNG TY TRANG TRÍ NỘI NGOẠI LALALISA</h3>
+                  <p>Địa chỉ văn phòng: 81 Nguyễn Thị Minh Khai, Phường Bến Thành, Quận 1, TP Hồ Chí Minh</p>
+                  <p>GPĐKKD số 0302202186 do Phòng ĐKKD – Sở kế hoạch và Đầu tư TP.HCM cấp ngày 14/11/2019</p>
+              </div>
+          </div>
+          <footer>
+              <p class="text-center m-0">Copyright © 2022 | Tất cả bản quyền thuộc về <b>Phạm Phước Duyên</b> & <b>Lê Minh Quang</b> </p>
+          </footer>
+  </div>
      <!-- Script file -->
      <script type="module" src="./js/home.js" ></script>
+     <script src="./js/all.js"></script>
   </body>
 </html>
