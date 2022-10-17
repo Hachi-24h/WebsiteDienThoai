@@ -1,0 +1,141 @@
+/* Nav  header*/
+
+.nav-header{
+    border-bottom: 1px solid grey !important; 
+}
+
+.menu a > span {
+    display: block;
+    border-bottom:2px solid rgb(255, 153, 0)!important; /*var(-yellow-or*/
+    width: 0%;
+}
+.menu a:hover {
+    color: grey!important;
+}
+.menu a:hover span{
+    animation:0.3s width-border-animation ease-out forwards;
+}
+
+.menu-element1{
+    display: none;
+    z-index: 999;
+    background-color: rgb(255, 253, 253);
+    width: 16rem;
+    border-top: 3px solid var(--yellow-text) ;
+    box-shadow: 10px 10px 10px rgb(230, 229, 229);
+}
+.menu-element1 li:hover{
+    background-color: var(--yellow-text);
+}
+.menu-element3{
+    display:none;
+    z-index: 999;
+    background-color: rgb(255, 253, 253);
+    width: 16rem;
+    border-top: 3px solid var(--yellow-text);
+    box-shadow: 10px 10px 10px rgb(230, 229, 229);
+}
+.menu-boss:hover .menu-element1{
+    display: block;
+}
+.menu-element2:hover .menu-element3{
+    display: block;
+}
+
+
+.fa-shopping-bag:hover , 
+.btn-login .fa-user:hover{
+    color: rgb(255, 153, 0)!important;
+    cursor: pointer;
+}   
+@keyframes width-border-animation {
+    0%{
+        width: 0%;
+    }
+    25%{
+        width: 25%;
+    }
+    50%{
+        width: 50%;
+    }
+    100%{
+        width: 120%;
+    }
+}
+.btn-login{
+    border: none!important;
+    position: relative;
+}
+.popup-login{
+    display: none;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    height: 220px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgb(243, 239, 239);
+}
+.popup-login li:hover{
+    background-color: rgb(224, 219, 219);
+    
+}
+.icon-popup{
+    display: inline-block;
+}
+
+.search-bar{
+    cursor: pointer;
+}
+.img-slide img{
+    object-fit: cover;
+}
+.input-slide input{
+    border: none;
+    outline: none;
+    width: 200%;
+}
+.input-slide button{
+    right: 5%;
+    padding:0.2rem 1rem 0.2rem 1rem;
+    font-size: 0.1rem;
+}
+.btn-search:hover{
+    background-color: rgb(255, 153, 0)!important;
+}
+
+/* Slide two */
+.slide-two{
+    height: 100vh;
+  
+}
+.content-box-s2{
+    box-shadow: -1px 1px 1px rgb(242, 215, 191);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.content-box-s2:hover{
+    background-color: rgb(38, 37, 37)!important;
+    color: white!important;
+}
+.content-box-s2:hover i{
+    color: white!important;
+}
+
+.reveal{
+    position: relative;
+    opacity: 0;
+}
+.reveal.active {
+    opacity: 1;
+}
+.active.fade-left {
+    animation: fade-left 1s ease-in!important;
+}
+@keyframes fade-left {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}

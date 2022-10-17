@@ -1,0 +1,16 @@
+.aside-cart li:hover a{
+    color:var(--yellow-text)!important;
+}
+article
+{
+    background-image: url("../img/summer_03.webp")!important ; 
+   background-size: cover;
+}
+article #cart-search{
+    box-shadow: 5px 5px 5px 5px grey;
+   
+}
+#cart-search .cart-img-height{
+    height: 300px!important;
+    object-fit: cover;
+}

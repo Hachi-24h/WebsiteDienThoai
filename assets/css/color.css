@@ -1,0 +1,20 @@
+:root{
+    --yellow-text:  rgb(255, 153, 0)!important;
+    --yellow-slow:  rgb(250, 246, 228)!important;
+    --grey-slow: rgb(221, 221, 221);
+}
+.yellow-text {
+    color: var(--yellow-text)!important;
+}
+.bg-yellow-text{
+    background-color: var(--yellow-text)!important;
+}
+.bg-yellow-slow{
+    background-color: var(--yellow-slow)!important;
+}
+.bg-grey{
+    background-color: var(--grey-slow)!important;
+}
+.text-grey{
+    color: var(--grey-slow)!important;
+}

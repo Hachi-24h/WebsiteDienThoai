@@ -1,0 +1,11 @@
+.product-header span{
+    display: inline-block!important;
+}
+.search-item{
+    display: inline-block!important;
+}
+.search-item input{
+    border: none;
+    background-color: black!important;
+    outline: none!important;
+}
