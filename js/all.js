@@ -16,10 +16,6 @@ document.getElementById("header").innerHTML =`
       <li class="fs-4 text-dark  ">
       <a class="fs-4 text-dark " aria-current="page" href="./classic.html">Classic<span></span></a></li>
       <li class="fs-4 text-dark">
-      <a class="fs-4 text-dark " aria-current="page" href="./luxurious.html">Luxurious<span></span></a></li>
-      <li class="fs-4 text-dark ">
-      <a class="fs-4 text-dark" aria-current="page" href="./royal.html">Royal<span></span></a></li>
-      <li class="fs-4 text-dark">
       <a class="fs-4 text-dark" href="./news.html">News <span></span></a></li>
       <li class="fs-4 text-dark">
       <a class="fs-4 text-dark" href="./aboutUs.html">About Us <span></span></a>
@@ -60,16 +56,6 @@ document.getElementById("header").innerHTML =`
               <a class="text-dark" href="./classic.html">Classic</a>
                 
             </li>
-
-            <li class="px-4 py-2 fs-5  text-start menu-element2 position-relative">
-              <a class="text-dark" href="./luxurious.html">Luxurious</a>
-                
-            </li>
-
-            <li class="px-4 py-2 fs-5  text-start menu-element2 position-relative">
-              <a class="text-dark" href="./royal.html">Royal</a>
-            </li>
-
 
             </ul> 
       
