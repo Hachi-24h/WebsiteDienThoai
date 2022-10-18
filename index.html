@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="./css/color.css">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
     <!-- JQUERY -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -23,14 +25,14 @@
   </head>
   <body>
     <div id="header"></div>
-      <div class="container-fluid p-0 w-100">
+      <div class="container-fluid p-0 w-100" id="home-responsive">
 
       <!-- Slide one -->
       <section>
-        <div class="container-fluid p-0  slide-one mb-2 " style="height: 100vh;">
+        <div class="container-fluid p-0  slide-one mb-2 ">
 
             <div class="row my-5 d-flex justify-content-between">
-              <div class="col-6 ">
+              <div class="col-md-6 ">
 
                 <div class="title-slide">
                   <p class="fs-title text-center fw-bold">Discover Furniture With High Quality Wood</p>
@@ -47,23 +49,20 @@
               
               <div class="img-slide justify-content-center w-100 p-0 " >
 
-                <div class="item-img position-relative d-flex container-fluid mx-2">
-                <img class="" src="./img/item-classic.jpg" alt="" width="100%"  height="600px" style="object-fit: cover;">
+                <div class="item-img position-relative d-flex container-fluid mx-2 h-25">
+                <img class="" src="./img/item-classic.jpg" alt="" width="100%"   style="object-fit: cover;">
 
-                <div class="d-flex search-bar position-absolute top-0 start-50 translate-middle bg-light  w-50 py-3 px-4">
-                    <div class="row  ">
-                       <span class="col-1 py-2 px-1">
+                <div class="d-flex  search-bar position-absolute top-0 start-50 translate-middle bg-light  w-50 py-3 ">
+                       <span class="p-1">
                         <i class=" fs-3 fas fa-search"></i>
                         </span>
                           
                         
-                        <div class="col-10 input-slide position-relative"> 
-                          <input id="get-value-search" class="fs-5 p-2 bg-light" type="text" placeholder="Search property">
+                        <div class="col-md-11 input-slide position-relative mx-2"> 
+                          <input id="get-value-search" class="fs-5 p-2 bg-light w-75" type="text" placeholder="Ex:Wooden Table">
                         </div>
-                         <div class="col-1">
-                        <button id="search-event" class="btn-search position-absolute bg-dark text-white end-0 mt-1 mx-4 border-0 px-4 py-2">Search</button>
-                        </div> 
-                    </div>
+                        
+                        <button id="search-event" class=" btn btn-search position-absolute bg-dark text-white end-0  border-0 px-2 mx-2 mt-2">Search</button>
                     
                   </div>
                 
@@ -84,31 +83,31 @@
 
             <div class="row h-25 d-flex reveal fade-left">
 
-                <div class="col-6">
+                <div class="col-md-6">
                 <h3 class="yellow-text">Benefits</h3>
                 <h1>Benefits when using our services</h1>
                 </div>
-                <div class="col-6 content">
+                <div class="col-md-6 content">
                   <p class="mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque fugit asperiores quia illo nostrum quos laudantium, ducimus quaerat tenetur repellendus! Veniam itaque repudiandae sapiente ad minima sint enim quibusdam deleniti.</p>
                 </div>
             </div>
 
             <div class="row h-50 reveal  fade-left">
-              <div class="content-box-s2 bg-white p-5  col-30">
+              <div class="content-box-s2 bg-white p-5  col-md-3">
                 <div class="icon-box ">
                   <i class="bg-warning p-3 rounded rounded-circle text-dark fas fa-check"></i>
                 </div>
                 <h2 class="py-2">Many Choice</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore repellat expedita libero veniam exercitationem tenetur enim rerum odio distinctio dicta nulla quas inventore suscipit ratione laudantium officia, aperiam deserunt! Aperiam.</p>
               </div>
-              <div class="content-box-s2 bg-white p-5  col-30">
+              <div class="content-box-s2 bg-white p-5  col-md-3">
                 <div class="icon-box">
                   <i class="bg-warning p-3 rounded rounded-circle text-dark fas fa-calendar"></i>
                 </div>
                 <h2 class="py-2">Fast and On Time</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore repellat expedita libero veniam exercitationem tenetur enim rerum odio distinctio dicta nulla quas inventore suscipit ratione laudantium officia, aperiam deserunt! Aperiam.</p>
               </div>
-              <div class="content-box-s2 bg-white p-5  col-30">
+              <div class="content-box-s2 bg-white p-5  col-md-3">
                 <div class="icon-box">
                   <i class="bg-warning p-3 rounded rounded-circle text-dark  fas fa-money-bill-wave"></i>
                 </div>
@@ -129,12 +128,12 @@
       <section class="container-fluid p-4 py-0 slide-three  ">
         <div class="container-fluid p-5 bg-white">
           <div class="row">
-              <div class="col-6 content-s3 reveal fade-left">
+              <div class="col-md-6 content-s3 reveal fade-left">
                 <h1 class="yellow-text">Title1</h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad at reprehenderit ducimus, amet adipisci officiis aliquam non ipsum eligendi, alias corrupti harum eum, eius ipsam odio vel possimus molestias excepturi.</p>
               </div>
-              <div class="col-6 img-s3 d-flex reveal fade-left">
-                  <img src="./img/img-s3.png" alt="">
+              <div class="col-md-6 img-s3 d-flex reveal fade-left">
+                  <img class="h-75 w-75" src="./img/img-s3.png"  alt="">
               </div>
           </div>
         </div>

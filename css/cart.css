@@ -4,11 +4,8 @@
 
 }
 #add-cart .data-cart{
-box-shadow: 5px 5px 5px 5px rgb(222, 186, 136);
-border-radius: 7px;
+
 padding:20px 0 0 0;
 
 }
-.data-cart .img-data-cart img{
-    border-radius: 5px;
-}
+

@@ -43,7 +43,7 @@ li{
     height: 700px!important;
 }
 .img-slide-classic img{
-    height: 100%;
+    
     object-fit: cover;
 }
 .content-img-slide-classic{

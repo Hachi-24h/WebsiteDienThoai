@@ -12,8 +12,8 @@ import myJSON from './data.json' assert {type: 'json'};
         {
         document.querySelector("article").innerHTML +=`
         <!-- CART SEARCH  -->
-        <div id="cart-search" class="container-fluid  p-3 d-flex justify-content-center w-80 "  >
-            <div class="row w-25 d-flex aside-cart  ">
+        <div id="cart-search" class="container-fluid  p-0 d-flex justify-content-center  col-sm-12"  >
+            <div class="row col-md-4 d-flex aside-cart  ">
                     <h3 class="fw-bold yellow-text mt-3">
                     Group Products </h3>
                     <div class="">
@@ -41,12 +41,12 @@ import myJSON from './data.json' assert {type: 'json'};
 
                     </div>
             </div>
-            <div class="row  w-75 py-5 bg-yellow-slow ">
+            <div class="row  col-md-8 col-sm-12 py-5 bg-yellow-slow px-3">
                 <!-- IMG ITEM -->
-                <div class="col-md-6   mt-1">
+                <div class="col-md-6 mt-1">
                     <div class="d-flex flex-column">
 
-                        <div class="row p-0" style="box-shadow: 5px 8px 5px rgb(178, 176, 176);">
+                        <div class="row p-0 img-preview-middle">
                             <img  class="p-0 cart-img-height"src=${item.image} width="100%" alt=""></div>
 
                         <div class="img-element row d-flex p-0 mt-5">
@@ -71,7 +71,7 @@ import myJSON from './data.json' assert {type: 'json'};
                 <div class="col-md-5 container-fluid ">
                     
                     <div class="content-cart row  ">
-                        <h5 class="">NEWS ARRIVALS/ <span class="fw-bold">TOPS</span></h5>
+                        <h5 class="py-2">NEWS ARRIVALS/ <span class="fw-bold">TOPS</span></h5>
                         <h1 class="fw-bold ">${item.name}</h1>
                         <div>
                         <i class="fas fa-star yellow-text"></i>
@@ -96,8 +96,8 @@ import myJSON from './data.json' assert {type: 'json'};
                         Product reviews</h5>
                    
                         <div class="row mt-1">
-                            <div class="col-md-2 p-0">
-                                <img src="${item.image}" width="100%" height="" alt="">
+                            <div class="col-md-2 p-0 img-preview accordion">
+                                <img src="${item.image}" class="w-100" height="" alt="">
                             </div>
                             <div class="col-md-10">
                                 <h4>${item.name}</h4>

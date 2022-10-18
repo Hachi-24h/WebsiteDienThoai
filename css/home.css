@@ -91,7 +91,7 @@
 .input-slide input{
     border: none;
     outline: none;
-    width: 200%;
+    font-size: 100%!important
 }
 .input-slide button{
     right: 5%;
@@ -103,10 +103,7 @@
 }
 
 /* Slide two */
-.slide-two{
-    height: 100vh;
-  
-}
+
 .content-box-s2{
     box-shadow: -1px 1px 1px rgb(242, 215, 191);
     border-radius: 5px;

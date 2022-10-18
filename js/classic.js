@@ -12,14 +12,14 @@ data.forEach(item =>{
     if(item.category  === "classic")
     add_Cart.innerHTML += `
     <!-- Cart item -->
-                        <div id="${item.id}" class="Cart col-md-2  text-white mt-3" >
+                        <div id="${item.id}" class="Cart col-md-2  text-white mt-3  " >
                             <div class="data-cart bg-dark  d-flex align-content-between flex-column" >
-                                <div class="img-data-cart w-80  h-80 " style="height: 250px;">
+                                <div class="img-data-cart w-80  h-80 mt-3" style="height: 250px;">
                                     <img class="w-100 h-100" src="${item.image}" alt="">
                                 </div>
                                 <div class="title-data-cart py-1 ">${item.name}</div>
                                 <div class="category-data-cart text-warning fw-bold">${item.money}</div>
-                                <div class="btn-click-search btn btn-outline-warning w-90">Learn More<div>
+                                <div class="btn-click-search btn btn-outline-warning w-90 mb-2">Learn More<div>
                             </div>
                             
                         </div>

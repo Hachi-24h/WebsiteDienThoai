@@ -1,7 +1,44 @@
 document.getElementById("header").innerHTML =`
 <!-- Header start -->
+<div id="mobile-header"> 
+<div class="collapse " id="navbarToggleExternalContent">
+  <div class="bg-light  d-flex flex-column ">
+    <a class="p-0 row" href="./index.html " >
+    <img src="./img/logo-website.jpg" alt="" width="30%" >
+    </a>
+    
+    <ul  class="  d-flex flex-column text-start ">
+          
+    <li><a class="fs-4 text-dark  " href="./index.html">Home <span></span></a></li>
       
-<div class="nav-header row p-2 justify-content-around align-items-center w-100 p-0">
+      <li class="fs-4 text-dark ">
+      <a class="fs-4 text-dark " aria-current="page" href="./product.html">Product<span></span></a></li>
+      <li class="fs-4 text-dark  ">
+      <a class="fs-4 text-dark " aria-current="page" href="./classic.html">Classic<span></span></a></li>
+      <li class="fs-4 text-dark">
+      <a class="fs-4 text-dark " aria-current="page" href="./luxurious.html">Luxurious<span></span></a></li>
+      <li class="fs-4 text-dark ">
+      <a class="fs-4 text-dark" aria-current="page" href="./royal.html">Royal<span></span></a></li>
+      <li class="fs-4 text-dark">
+      <a class="fs-4 text-dark" href="./news.html">News <span></span></a></li>
+      <li class="fs-4 text-dark">
+      <a class="fs-4 text-dark" href="./aboutUs.html">About Us <span></span></a>
+      </li>
+  </ul>
+
+  </div>
+</div>
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</nav>
+
+</div>
+
+<div id="responsive-header" class="nav-header row p-2 justify-content-around align-items-center w-100 p-0">
 
     <div class="col-2 logo-header">
           <a href="./index.html">

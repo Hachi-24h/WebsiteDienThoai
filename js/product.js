@@ -12,7 +12,7 @@ data.forEach(item =>{
     add_Cart.innerHTML += `
     <!-- Cart item -->
                         <div id="${item.id}" class="Cart col-md-2  text-white mt-3" >
-                            <div class="data-cart bg-dark  d-flex align-content-between flex-column" >
+                            <div class="data-cart border border-warning  d-flex align-content-between flex-column" >
                                 <div class="img-data-cart w-80  h-80 " style="height: 250px;">
                                     <img class="w-100 h-100" src="${item.image}" alt="">
                                 </div>
