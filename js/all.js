@@ -4,7 +4,7 @@ document.getElementById("header").innerHTML =`
 <div class="collapse " id="navbarToggleExternalContent">
   <div class="bg-light  d-flex flex-column ">
     <a class="p-0 row" href="./index.html " >
-    <img src="./img/logo-website.jpg" alt="" width="30%" >
+    <img src="./img/logo.jpg" alt="" width="30%" >
     </a>
     
     <ul  class="  d-flex flex-column text-start ">

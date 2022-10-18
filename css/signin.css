@@ -28,7 +28,7 @@ body {
     max-width: var(--max-width);
     overflow: hidden;
     position: relative;
-    background: url("../img/bg-signin.jpg")!important;
+    background: url("../img/login.jpg")!important;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
