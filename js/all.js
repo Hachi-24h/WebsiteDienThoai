@@ -38,7 +38,7 @@ document.getElementById("header").innerHTML =`
 
     <div class="col-2 logo-header">
           <a href="./index.html">
-          <img src="./img/logo-website.jpg" alt="" width="100%" >
+          <img src="./img/logo.jpg" alt="" width="100%" >
           </a>
     </div>
 
