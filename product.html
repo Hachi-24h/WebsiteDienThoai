@@ -1,120 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- ICON LINK -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- ICON LINK -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- CSS LINK -->
+  <link rel="stylesheet" href="./css/basic.css">
+  <link rel="stylesheet" href="./css/color.css">
+  <link rel="stylesheet" href="./css/home.css">
+  <link rel="stylesheet" href="./css/product.css">
+  <link rel="stylesheet" href="./css/cart.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/responsive.css">
 
-    <!-- CSS LINK -->
-    <link rel="stylesheet" href="./css/basic.css">
-    <link rel="stylesheet" href="./css/color.css">
-    <link rel="stylesheet" href="./css/home.css">
-    <link rel="stylesheet" href="./css/product.css">
-    <link rel="stylesheet" href="./css/cart.css">
-    <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/responsive.css">
-
-    <!-- JQUERY -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <title>Lalalisa</title>
+  <!-- JQUERY -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <title>CellphoneS</title>
 </head>
+
 <body>
-        <div id="header"></div>
-            <!-- Carousel -->
+  <div id="header"></div>
+  <!-- Carousel -->
 
-        <div id="demo" class="carousel slide p-0 container-fluid w-100  " data-bs-ride="carousel">
-        <!-- Indicators/dots -->
-        <div class="carousel-indicators ">
+  <div id="demo" class="carousel slide p-0 container-fluid w-100  " data-bs-ride="carousel">
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators ">
 
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-          
-        </div>
-        <!-- The slideshow/carousel -->
-        <div class="carousel-inner">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
 
-          <div class="carousel-item active h-50">
-            <img class="h-50 w-100 " src="https://dl.airtable.com/.attachmentThumbnails/a089f9304b965724c0e6828c96dd1a53/cf460909?ts=1658011573&userId=usrQMwWEPx18KgLcP&cs=839ac7392cbf3d58"  width="100%" height="912px" alt="">
-          </div>
-          <div class="carousel-item h-50">
-            <img class="h-50 w-100 " src="./img/bg-slide-one.jpg" width="100%" height="912px" alt="">
-          </div>
-          <div class="carousel-item h-50">
-            <img class="h-50 w-100 " src="https://tronhouse.com/assets/data/editor/source/chup-anh-noi-that-va-nhung-thu-thuat-can-luu-y/chup-anh-noi-that-tron-house-6.jpg"  width="100%" height="912px" alt="">
-          </div>
-
-        </div>
-
-       
-       
-
-        </div>
-        <div class="container-fluid main-product bg-light p-0">
-
-            <div class="product-header bg-warning fw-bold  p-3 d-flex">
-
-                <div class="fs-1 text-start ">Product</div>
-                
-            </div>
-
-            <div class="container-fluid bg-light  px-5 bg-dark py-5">
-                
-                <div class=" row" id="add-cart"></div>
-                
-               
-            </div>
-        </div>
-        <div class="footer-area ">
-          <div class="container-fluid">
-              <div class="row justify-content-center">
-                  <div class="col-md-3">
-                      <img src="../img/logo.png" alt="" width="180" >
-                      <p class="text-capitalize mt-3">Lalalisa tự hào mang đến các dòng sản phẩm vô cùng đa dạng và phong phú, kết hợp hài hòa giá trị mỹ thuật của phương Tây và các giá trị truyền thống của Phương Đông. Được thể hiện rõ nét trong các dòng nội thất Cổ điển, Tân cổ điển, Hiện đại và Đương đại.</p>
-                  </div>
-                  <div class="col-md-2">
-                      <h3>Thông tin</h3>
-                      <a href="">Về chúng tôi</a>
-                      <a href="./eror.html">Chính sách bán hàng</a>
-                      <a href="./eror.html">Theo dõi đơn hàng</a>
-                  </div>
-                  <div class="col-md-3">
-                      <h3>Liên hệ với chúng tôi</h3>
-                      <div class="contact">
-                          <a href="./index.html">www.Lalalisa.com</a>
-                          <a href="tel:0347825JQK">(+84) 347825825</a>
-                          <a href="mailto:zombizombi51@gmail.com">Lalalisa@gmail.com</a>
-                          <div class="icon-social h1">
-                              <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                              <i class="fa fa-instagram" aria-hidden="true"></i>
-                              <i class="fa fa-twitter" aria-hidden="true"></i>
-                              <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-3">
-                      <h3>CÔNG TY TRANG TRÍ NỘI NGOẠI LALALISA</h3>
-                      <p>Địa chỉ văn phòng: 81 Nguyễn Thị Minh Khai, Phường Bến Thành, Quận 1, TP Hồ Chí Minh</p>
-                      <p>GPĐKKD số 0302202186 do Phòng ĐKKD – Sở kế hoạch và Đầu tư TP.HCM cấp ngày 14/11/2019</p>
-                  </div>
-              </div>
-              <footer>
-                  <p class="text-center m-0">Copyright © 2022 | Tất cả bản quyền thuộc về <b>Phạm Phước Duyên</b> & <b>Lê Minh Quang</b> </p>
-              </footer>
+      <div class="carousel-item active h-50">
+        <img class="h-50 w-100 " src="./img/bai3.jpg" width="100%" height="912px" alt="" style="object-fit: cover;">
       </div>
-        <!-- BS5 Script -->
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-        <script type="module" src="./js/product.js" ></script>
-        <script src="./js/all.js"></script>
-        <!-- JQUERY -->
-        <!-- JS file -->
-        <script src="path/to/jquery.easy-autocomplete.min.js"></script> 
+      <div class="carousel-item h-50">
+        <img class="h-50 w-100 " src="./img/bia2.png" width="100%" height="912px" alt="" style="object-fit: cover;">
+      </div>
+      <div class="carousel-item h-50">
+        <img class="h-50 w-100 " src="./img/bia4.png" width="100%" height="912px" alt="" style="object-fit: cover;">
+      </div>
+    </div>
 
-    </body>
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+
+  </div>
+  <div class="container-fluid main-product bg-light p-0">
+
+    <div class="product-header bg-warning fw-bold  p-3 d-flex">
+
+      <div class="fs-1 text-start ">Product</div>
+
+    </div>
+
+    <div class="container-fluid bg-light  px-5  py-5">
+
+      <div class=" row" id="add-cart"></div>
+
+
+    </div>
+  </div>
+  <div class="footer-area bg-yellow-text ">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-md-3">
+          <img src="./img/logo_cell.png" alt="" width="200px " style="margin:0px;">
+          <p class="text-capitalize mt-3" style="margin-top: 0px;">CellphoneS nơi đem đến cho bạn các thiết bị tốt nhất
+          </p>
+        </div>
+        <div class="col-md-2">
+          <h3>Thông tin</h3>
+          <a href="">Về chúng tôi</a>
+          <a href="./eror.html">Chính sách bán hàng</a>
+          <a href="./eror.html">Theo dõi đơn hàng</a>
+        </div>
+        <div class="col-md-3">
+          <h3>Tổng đài hổ trợ miễn phí</h3>
+          <div class="contact">
+            <p>
+              Gọi mua hàng 1800.2097 (7h30 - 22h00) <br>
+              Gọi khiếu nại 1800.2063 (8h00 - 21h30) <br>
+              Gọi bảo hành 1800.2064 (8h00 - 21h00) <br>
+            </p>
+            <div class="icon-social h1">
+              <i class="fa fa-facebook-official" aria-hidden="true"></i>
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+              <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h3>HỆ THỐNG BÁN LẺ THIẾT BỊ - CELLPHONES</h3>
+          <p>CellphoneS 218-220 Trần Quang Khải, Phường Tân Định, Quận 1</p>
+          <p>CellphoneS 55B Trần Quang Khải, P. Tân Định, Q. 1</p>
+        </div>
+      </div>
+      <footer>
+        <p class="text-center m-0">Copyright © 2022 | Tất cả bản quyền thuộc về <b>Phan Thanh Nam</b> </p>
+      </footer>
+    </div>
+    <!-- BS5 Script -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"></script>
+    <script type="module" src="./js/product.js"></script>
+    <script src="./js/all.js"></script>
+    <!-- JQUERY -->
+    <!-- JS file -->
+    <script src="path/to/jquery.easy-autocomplete.min.js"></script>
+    <!-- AOS -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+      AOS.init();
+    </script>
+</body>
+
 </html>

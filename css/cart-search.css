@@ -11,6 +11,6 @@ article #cart-search{
    
 }
 #cart-search .cart-img-height{
-    height: 300px!important;
+    /* height: 300px!important; */
     object-fit: cover;
 }

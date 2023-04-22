@@ -28,10 +28,10 @@ body {
     max-width: var(--max-width);
     overflow: hidden;
     position: relative;
-    background: url("../img/login.jpg")!important;
-    background-attachment: fixed;
+    background: url("../img/bglogin.jpg")!important;
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
     position: relative;
     transform: translateX(0);

@@ -11,8 +11,8 @@ function reset() {
     $(document).ready(function() {
     var user = [{
         id: 0,
-        name: 'Cao Nguyen Gia Hung',
-        email: '20089711.hung@student.iuh.edu.vn',
+        name: 'Phan Thanh Nam',
+        email: 'nammatl@gmail.com',
         phone: '0347825051',
         password: '1'
     }]

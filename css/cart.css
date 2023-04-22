@@ -1,8 +1,9 @@
 #add-cart .data-cart:hover{
     cursor: pointer;
-    background-color: rgb(60, 58, 58)!important;
-
+    transition: 0.3s  ease-in;
+    box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem rgb(113, 113, 113);
 }
+
 #add-cart .data-cart{
 
 padding:20px 0 0 0;

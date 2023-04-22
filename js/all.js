@@ -4,7 +4,7 @@ document.getElementById("header").innerHTML =`
 <div class="collapse " id="navbarToggleExternalContent">
   <div class="bg-light  d-flex flex-column ">
     <a class="p-0 row" href="./index.html " >
-    <img src="./img/logo.jpg" alt="" width="30%" >
+    <img src="../img/logo_cell.png" alt="" width="30%" >
     </a>
     
     <ul  class="  d-flex flex-column text-start ">
@@ -14,7 +14,7 @@ document.getElementById("header").innerHTML =`
       <li class="fs-4 text-dark ">
       <a class="fs-4 text-dark " aria-current="page" href="./product.html">Product<span></span></a></li>
       <li class="fs-4 text-dark  ">
-      <a class="fs-4 text-dark " aria-current="page" href="./classic.html">Classic<span></span></a></li>
+      <a class="fs-4 text-dark " aria-current="page" href="./laptop.html">Laptop<span></span></a></li>
       <li class="fs-4 text-dark">
       <a class="fs-4 text-dark" href="./news.html">News <span></span></a></li>
       <li class="fs-4 text-dark">
@@ -38,7 +38,8 @@ document.getElementById("header").innerHTML =`
 
     <div class="col-2 logo-header">
           <a href="./index.html">
-          <img src="./img/logo.jpg" alt="" width="100%" >
+          <img src="../img/logo_cell.png" alt="" width="60%" >
+       
           </a>
     </div>
 
@@ -53,10 +54,20 @@ document.getElementById("header").innerHTML =`
            <ul class="px-0 py-4  menu-element1 position-absolute ">
            
             <li class="px-4 py-2 fs-5  text-start menu-element2 position-relative">
-              <a class="text-dark" href="./classic.html">Classic</a>
+              <a class="text-dark" href="./Laptop.html">Laptop <br></a>
+            
                 
             </li>
-
+            <li class="px-4 py-2 fs-5  text-start menu-element2 position-relative">
+            <a class="text-dark" href="./iphone.html">Iphone <br></a>  
+          </li>
+         
+        <li class="px-4 py-2 fs-5  text-start menu-element2 position-relative">
+        <a class="text-dark" href="./samsung.html">Samsung<br></a>            
+      </li>
+       <li class="px-4 py-2 fs-5  text-start menu-element2 position-relative">
+          <a class="text-dark" href="./orther.html">Orther<br></a>            
+        </li>
             </ul> 
       
           
