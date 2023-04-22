@@ -52,7 +52,7 @@
         "money": "26.790.000đ",
         "category": "iphone",
         "sale": "31%",
-        "image": "../img/iphone.jpeg",
+        "image": "./img/iphone.jpeg",
         "id": 0
       },
       {
