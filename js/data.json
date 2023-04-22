@@ -60,7 +60,7 @@
         "money": "16.890.000đ",
         "category": "iphone",
         "sale": "11%",
-        "image": "../img/sp2.jpg",
+        "image": "./img/sp2.jpg",
         "id": 1
       },
       {
@@ -68,7 +68,7 @@
         "money": "11.990.000đ",
         "category": "iphone",
         "sale": "14%",
-        "image":"../img/ip11.webp",
+        "image":"./img/ip11.webp",
         "id": 2
       },
       {
@@ -76,7 +76,7 @@
         "money": "17.490.000đ",
         "category": "Samsung",
         "sale": "44%",
-        "image":"../img/sss22ultra.webp",
+        "image":"./img/sss22ultra.webp",
         "id": 3
       },
       {
@@ -84,28 +84,28 @@
         "money": "16.590.000d",
         "category": "Samsung",
         "sale": "31%",
-        "image":"../img/sp4.jpg",
+        "image":"./img/sp4.jpg",
         "id": 4
       },
       {
         "name": "Samsung Galaxy A14 5G",
         "money": "4.690.000d",
         "category": "Samsung",
-        "image":"../img/ssA14.webp",
+        "image":"./img/ssA14.webp",
         "id": 5
       },
       {
         "name": "OPPP Reno8 T5 5G",
         "money": "9.990.000đ",
         "category": "orther",
-        "image":"../img/sp7.jpg",
+        "image":"./img/sp7.jpg",
         "id": 6
       },
       {
         "name": "OPPP Find N2 Flip",
         "money": "19.990.000đ",
         "category": "orther",
-        "image":"../img/opfn2.webp",
+        "image":"./img/opfn2.webp",
         "id": 7
       },
       {
@@ -113,21 +113,21 @@
         "money": "26.990.000đ",
         "category": "Samsung",
         "sale": "16%",
-        "image":"../img/s23-ultra-tim.webp",
+        "image":"./img/s23-ultra-tim.webp",
         "id": 8
       },
       {
         "name": "Xiaomi 13 8GB 256GB",
         "money": "17.690.000đ",
         "category": "orther",
-        "image":"../img/xaomi.webp",
+        "image":"./img/xaomi.webp",
         "id": 9
       },
       {
         "name": "Xiaomi Redmi Note 12",
         "money": "4.690.000đ",
         "category": "orther",
-        "image":"../img/xaomi12.webp",
+        "image":"./img/xaomi12.webp",
         "id": 10
       },
       {
@@ -135,49 +135,49 @@
         "money": "6.290.000đ",
         "category": "orther",
         "sale": "55%",
-        "image":"../img/vivo.webp",
+        "image":"./img/vivo.webp",
         "id": 11
       },
       {
         "name": "Laptop Asus Gaming Rog Strix G15 G513IH HN015W",
         "money": "18.590.000đ",
         "category": "laptop",
-        "image":"../img/ltasg15.webp",
+        "image":"./img/ltasg15.webp",
         "id": 12
       },
       {
         "name": "Laptop Asus Vivobook X415EA BV451W",
         "money": "6.990.000đ",
         "category": "laptop",
-        "image":"../img/ltasx415.webp",
+        "image":"./img/ltasx415.webp",
         "id": 13
       },
       {
         "name": "Laptop Lenovo Ideapad Gaming 3 15IHU6",
         "money": "18.990.000đ",
         "category": "laptop",
-        "image":"../img/ltlv15.webp",
+        "image":"./img/ltlv15.webp",
         "id": 14
       },
       {
         "name": "Laptop MSI Gaming GF63 Thin 11UD 473VN",
         "money": "17.890.000đ",
         "category": "laptop",
-        "image":"../img/ltmsi63.webp",
+        "image":"./img/ltmsi63.webp",
         "id": 15
       },
       {
         "name": "Laptop HP Gaming Victus 15-FA0031DX 6503849",
         "money": "16.790.000đ",
         "category": "laptop",
-        "image":"../img/lthp15.webp",
+        "image":"./img/lthp15.webp",
         "id": 16
       },
       {
         "name": "Laptop Dell Inspiron 3511 5829BLK",
         "money": "13.490.000đ",
         "category": "laptop",
-        "image":"../img/ltdell.webp",
+        "image":"./img/ltdell.webp",
         "id": 17
       }
     ]
