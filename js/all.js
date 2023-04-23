@@ -54,7 +54,7 @@ document.getElementById("header").innerHTML =`
            <ul class="px-0 py-4  menu-element1 position-absolute ">
            
             <li class="px-4 py-2 fs-5  text-start menu-element2 position-relative">
-              <a class="text-dark" href="./Laptop.html">Laptop <br></a>
+              <a class="text-dark" href="./laptop.html">Laptop <br></a>
             
                 
             </li>
